@@ -5,6 +5,7 @@ body, html {
 html {
 	-ms-touch-action: manipulation;
 	touch-action: manipulation;
+    
 }
 
 button { 
@@ -174,4 +175,24 @@ button#rankings {
 @keyframes movebg {
     0% { background-position: 0 0; }
     100% { background-position: -10000px 0; }
+}
+
+@media only screen and (max-width: 768px) {
+    div#alertWrapper {
+        top: 5%;
+    }
+    div#gooseWrapper {
+        top: 50%;
+    }
+    img#goose_head {
+        top: -2%;
+        right: 4%;
+    }
+    img.goose_foot {
+        top: 82%;
+    }
+    img#goose_foot_L {
+        left: 52%;
+    }
+
 }
